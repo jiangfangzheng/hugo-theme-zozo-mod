@@ -8,7 +8,7 @@ html {
 body {
   color: #333333;
   font-family: 'source-han-sans-simplified-c', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   width: 100%;
   background-color: #f7f7f7;
   margin: 0;
@@ -109,7 +109,7 @@ hr {
   display: block;
   white-space: nowrap;
   padding: 10px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .header {
@@ -135,7 +135,7 @@ hr {
 }
 
 .header .site_title_container .site_title a {
-  font-size: 28px;
+  font-size: 30px;
   width: 65px;
   letter-spacing: 2px;
   line-height: 1.2;
@@ -143,7 +143,7 @@ hr {
 }
 
 .header .site_title_container .site_title a span {
-  display: none;
+  display: contents;
 }
 
 .header .site_title_container .site_title a:hover {
@@ -151,7 +151,7 @@ hr {
 }
 
 .header .site_title_container .description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #565654;
   float: right;
 }
@@ -206,7 +206,7 @@ hr {
   text-decoration: none;
   letter-spacing: 1px;
   color: #1f1f1f;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 28px;
 }
 
@@ -233,8 +233,10 @@ hr {
 }
 
 .post .post_content p {
-  line-height: 2em;
+  line-height: 1.5em;
   letter-spacing: 0.2px;
+  text-indent:2em;
+  margin: 0.5em;
 }
 
 .post .post_content a {
@@ -348,7 +350,7 @@ hr {
 
 /*for archive*/
 .list_with_title {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -359,7 +361,7 @@ hr {
 }
 
 .list_with_title .listing_title {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: #1f1f1f;
   font-weight: bold;
   padding-top: 10px;
@@ -384,7 +386,7 @@ hr {
 .list_with_title .listing .listing_post .post_time {
   float: right;
   color: #c5c5c5;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .list_with_title .listing .listing_post a:hover {
@@ -617,16 +619,16 @@ a.back_to_top:hover span {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1333px) {
   .main {
-    width: 1000px;
+    width: 1280px;
   }
   .nav_container {
-    width: 840px;
+    width: 1220px;
   }
   .header,
   .content {
-    width: 820px;
+    width: 1200px;
   }
 }
 
@@ -652,7 +654,7 @@ a.back_to_top:hover span {
     margin-top: 40px;
   }
   .post .post_title a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .post_footer {
     padding-bottom: 30px;
