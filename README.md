@@ -1,6 +1,6 @@
 # Hugo Theme Zozo
 
-异想家基于imzeuk的hugo主题zozo的修改版，适配自己的[异想博客](jfz.me/blog)
+异想家基于imzeuk的hugo主题zozo的修改版，适配自己的[异想博客](https://jfz.me/blog)
 
 原主题地址：https://github.com/imzeuk/hugo-theme-zozo
 
