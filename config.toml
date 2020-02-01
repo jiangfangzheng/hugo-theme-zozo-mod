@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
-title = "异想博客"                    # site title  # 网站标题
+title = "异想萌域"                    # site title  # 网站标题
 theme = "zozo"
 hasCJKLanguage = true                # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 summaryLength = 100
@@ -16,32 +16,32 @@ disqusShortname = ""                 # your discuss shortname
 [blackfriday]
   smartypants = false
 
-[[menu.main]]                        # config your menu  # 配置菜单
-  name = "首页"
-  weight = 10
-  identifier = "home"
-  url = "/"
+# [[menu.main]]                        # config your menu  # 配置菜单
+#   name = "首页"
+#   weight = 10
+#   identifier = "home"
+#   url = "/"
 [[menu.main]]
   name = "归档"
   weight = 20
   identifier = "archive"
-  url = "/blog/"
+  url = "/moe/"
 [[menu.main]]
   name = "标签"
   weight = 30
   identifier = "tags"
   url = "/tags/"
-[[menu.main]]
-  name = "关于"
-  weight = 40
-  identifier = "about"
-  url = "/about/"
+#[[menu.main]]
+#  name = "关于"
+#  weight = 40
+#  identifier = "about"
+#  url = "/about/"
 
 [params]
-  subTitle = "异想家博采众长的客厅"                                       # site's subTitle  # 网站二级标题
+  subTitle = "异想家的生活志"                                       # site's subTitle  # 网站二级标题
   footerSlogan = ""                                          # site's footer slogan  # 网站页脚标语
   keywords = ["Sandeepin", "异想博客","Hugo"]                                  # site's keywords  # 网站关键字
-  description = "异想家博采众长的客厅！"                        # site's description  # 网站描述
+  description = "异想家的生活志"                        # site's description  # 网站描述
 
 # mathjax
   enableMathJax = false                                                 # enable mathjax  # 是否使用mathjax（数学公式）
@@ -61,3 +61,10 @@ disqusShortname = ""                 # your discuss shortname
 [social]
   github = "https://github.com/jiangfangzheng/"
   weibo = "https://weibo.com/sandeepin"
+
+# markdown中可以使用HTML标签，自己的博客不担心不安全
+[markup.goldmark.renderer]
+unsafe = true
+
+# 解决代码高亮黑边问题 https://github.com/xiaoheiAh/hugo-theme-pure/issues/56
+PygmentsCodeFences = false
